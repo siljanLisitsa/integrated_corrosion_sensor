@@ -15,4 +15,16 @@ This sensor is run using the Arduino IDE, [PuTTY](https://www.chiark.greenend.or
 
 ## The project
 
-The purpose of the project was to work from a given design to build a sensor to detect corrosion of a material using factors of time, (ambient) humidity, temperature, and resistance (of the material, in ohms). The Arduino used was the Uno Wifi Rev2. 
+The purpose of the project was to work from a given design to build a sensor to detect corrosion of a material using factors of time, (ambient) humidity, temperature, and resistance (of the material, in ohms). Below are the Arduino and sensors used in this project:
+
+- Arduino Uno Wifi Rev 2
+- Adafruit SHT31-D Temperature & Humidity Sensor
+- Ohmmeter (made from scratch)
+
+### The code
+
+The program is divisible into sections by its separate behaviours which were written to meet client requirements as the design evolved and changed. The program was written to display live sensor data to a webpage, and log sensor data to implement a corrosion index. 
+
+### Displaying live sensor data
+
+The program 
